@@ -29,13 +29,18 @@ Given the input image (100 * 100):
 
 ![](https://imgur.com/aY3zw9G.jpg)
 
-The model predicts the bounding box coordinates :
+The ideal model predicts the bounding box coordinates :
 
 `[0.37, 0.31, 0.91, 0.81]`
 
 which when rescaled to the image corresponds to 
 
-`[37, 31, 91, 81]`
+`[37, 31, 91, 81]` 
+
+        i.e. (x1,y1) = [37,31] {Top-Left Coordinate}
+    
+             (x2,y2) = [91,81] {Bottom-Right Coordinate}
+
 
 ## Author
 
